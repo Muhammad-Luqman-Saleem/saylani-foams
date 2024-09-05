@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .logo{
+    display: flex;
+    justify-content: center;
+    max-width: 1270px;
+    min-width: 200px;
+    height: 68px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+.heading1{
+    display: inline;
+} */
+
+.one {
+    display: flex;
+    justify-content: center;
+    height: 68px;
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+    /* justify-content: left; */
+    /* min-width: 200px;
+    max-width: 1270px; */
+}
+
+.div2 h1 {
+    font-size: 30px;
+}
+
+.div2 img {
+    margin: 0 5px;
+}
+
+.btn1 {
+    border-radius: 15px;
+    padding: 5px 7px;
+    border: 1px solid rgb(55, 55, 241);
+    background-color: white;
+    color: rgb(55, 55, 241);
+    font-size: 13px;
+}
+
+.btn1:hover {
+    color: white;
+    background-color: rgb(55, 55, 241);
+}
+
+.div4 {
+    opacity: 60%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.divcity {
+    margin: 0 auto;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+/* @media  (max-width: 960px) {
+    .div2{
+        flex-direction: column;
+        gap: 50px;
+    }
+} */
+.main {
+    display: flex;
+    justify-content: center;
+}
+.contienr p{
+    display: 
+    text-align: left;
+}
+
+.selcor {
+    margin-right: 20px;
+}
+
+.sel {
+    margin-top: 5px;
+    width: 385px;
+    height: 50px;
+    border: 1px solid #8dc63f;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.campus,
+.pref {
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 385px;
+    height: 50px;
+    border: 1px solid #8dc63f;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.campus{
+    margin: 10px;
+}
+.pref{
+    margin:10px ;
+}
+.linked1,.linked2{
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 385px;
+    height: 50px;
+    border: 1px solid #8dc63f;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.add{
+margin-right: 20px;
+    margin-top: 5px;
+    width: 80%;
+    height: 50px;
+    border: 1px solid #8dc63f;
+}
+.address{
+    padding-left: 210px;
+}
+.pic{
+    padding-left: 210px;
+display: inline-block;
+}
